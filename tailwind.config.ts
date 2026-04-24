@@ -11,12 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'neon-green': 'var(--neon-green)',
+        'neon-orange': 'var(--neon-orange)',
+        'neon-red': 'var(--neon-red)',
       },
       fontFamily: {
-        'space-grotesk': ['"Space Grotesk"', 'sans-serif'],
-        'inter': ['Inter', 'sans-serif'],
-        'mono': ['"JetBrains Mono"', 'monospace'],
-        'manrope': ['Manrope', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
       }
     },
   },
